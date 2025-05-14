@@ -62,3 +62,5 @@ def start_mcp_server():
         return mcs.get_author_email()
 
     mcp.run()
+if __name__ == "__main__":
+    start_mcp_server()

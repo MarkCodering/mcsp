@@ -1,1 +1,6 @@
 venv/
+
+mcsp.egg-info/
+
+mcsp/__pycache__/
+mcsp/stores/__pycache__/

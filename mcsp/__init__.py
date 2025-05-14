@@ -1,12 +1,11 @@
 # mcsp/__init__.py
 
-from .core import ModelContextStore, model_context_store
-from .storage.vector_store import VectorStore
-from .storage.json_store import JSONStore
+from .core import ModelContextStore
+from .stores.vector_store import VectorStore
+from .stores.json_store import JSONStore
 
 __all__ = [
     "ModelContextStore",
-    "model_context_store",
     "VectorStore",
     "JSONStore",
 ]
